@@ -1,0 +1,62 @@
+@charset "UTF8";
+
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #FFAAAA, #d46a6a);
+    height: 100%;
+    text-align: center;
+    text-indent: 30px;
+}
+
+/* #FFAAAA - #D46A6A - #550000 - #2E882E */
+
+p{
+    text-align: justify;
+}
+
+main{
+    background-color: #ffffff;
+    margin: auto;
+    padding: 15px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #550000;
+}
+
+h1, h2{
+    color: #2E882E;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal{
+    text-align: center;
+    color: white;
+    background-color: #d46a6a;
+}
+
+.titulos{
+    text-align: center;
+}
+
+a{
+    color: #2E882E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ffaaaa;
+}
+
+a:hover{
+    
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #550000;
+    text-decoration: none;
+}
